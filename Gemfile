@@ -18,6 +18,11 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'guard-rspec'
 end
 
 gem 'jquery-ui-rails'
