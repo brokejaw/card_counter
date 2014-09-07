@@ -1,0 +1,9 @@
+<div class="index-container">
+	<ul class="weekly-index">
+		<% weeks.each(function(week){ %>
+		<li>
+			Week Starting: <%= week.escape('week_start') %>
+			Card Count: <%= week.escape('count') %></li>
+			<% }); %>
+		</ul>
+</div>

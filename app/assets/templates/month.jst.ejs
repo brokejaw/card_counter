@@ -1,0 +1,9 @@
+<div class="month-container">
+	<ul class="monthly-report">
+		<% months.each(function(month){ %>
+		<li>
+			Month Starting: <%= month.escape('month_start') %>
+			Card Count: <%= month.escape('count') %></li>
+			<% }); %>
+		</ul>
+</div>
